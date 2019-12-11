@@ -17,21 +17,18 @@ namespace Data_Tier
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public CatCatalog()
         {
-            this.ImagesProducts = new HashSet<ImagesProduct>();
             this.Products = new HashSet<Product>();
         }
     
         public int IdCatalog { get; set; }
-        public int IdProvider { get; set; }
+        public Nullable<int> IdProvider { get; set; }
         public string Season { get; set; }
-        public string StarActiveDate { get; set; }
-        public string EndActiveDate { get; set; }
-        public string DateUpdate { get; set; }
-        public string IsEnabled { get; set; }
+        public Nullable<System.DateTime> StarActiveDate { get; set; }
+        public Nullable<System.DateTime> EndActiveDate { get; set; }
+        public Nullable<System.DateTime> DateUpdate { get; set; }
+        public bool IsEnabled { get; set; }
     
         public virtual CatProvider CatProvider { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ImagesProduct> ImagesProducts { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Product> Products { get; set; }
     }

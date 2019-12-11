@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entity Tier", "Entity Tier\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common Tier", "Common Tier\Common Tier.csproj", "{2330C4BD-BD27-4631-8499-C60AFC8BB204}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Console Tier", "Console Tier\Console Tier.csproj", "{2123EC92-E2B7-4DB9-9C01-D8939CFBC444}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{2330C4BD-BD27-4631-8499-C60AFC8BB204}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2330C4BD-BD27-4631-8499-C60AFC8BB204}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2330C4BD-BD27-4631-8499-C60AFC8BB204}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2123EC92-E2B7-4DB9-9C01-D8939CFBC444}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2123EC92-E2B7-4DB9-9C01-D8939CFBC444}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2123EC92-E2B7-4DB9-9C01-D8939CFBC444}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2123EC92-E2B7-4DB9-9C01-D8939CFBC444}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -17,7 +17,6 @@ namespace Data_Tier
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public CatBrand()
         {
-            this.ImagesProducts = new HashSet<ImagesProduct>();
             this.Products = new HashSet<Product>();
         }
     
@@ -28,8 +27,6 @@ namespace Data_Tier
         public bool IsEnabled { get; set; }
         public System.DateTime DateUpdate { get; set; }
     
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<ImagesProduct> ImagesProducts { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Product> Products { get; set; }
     }

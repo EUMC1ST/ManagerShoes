@@ -16,5 +16,11 @@ namespace Presentation_Tier
         {
             InitializeComponent();
         }
+
+        private void btnSearchProduct_Click(object sender, EventArgs e)
+        {
+            var businessProduct = new Business.Product();
+            businessProduct.GetProduct(3,String.Empty);
+        }
     }
 }

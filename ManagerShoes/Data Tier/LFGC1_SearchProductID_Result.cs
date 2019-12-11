@@ -11,7 +11,7 @@ namespace Data_Tier
 {
     using System;
     
-    public partial class JRCV1_SearchShoesProduct_Result
+    public partial class LFGC1_SearchProductID_Result
     {
         public int Id { get; set; }
         public Nullable<int> IdType { get; set; }
