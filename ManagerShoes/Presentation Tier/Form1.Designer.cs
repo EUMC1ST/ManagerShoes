@@ -28,13 +28,34 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnSearchProduct = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnSearchProduct
+            // 
+            this.btnSearchProduct.Location = new System.Drawing.Point(332, 83);
+            this.btnSearchProduct.Name = "btnSearchProduct";
+            this.btnSearchProduct.Size = new System.Drawing.Size(113, 47);
+            this.btnSearchProduct.TabIndex = 0;
+            this.btnSearchProduct.Text = "Search";
+            this.btnSearchProduct.UseVisualStyleBackColor = true;
+            this.btnSearchProduct.Click += new System.EventHandler(this.btnSearchProduct_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1081, 615);
+            this.Controls.Add(this.btnSearchProduct);
+            this.Name = "Form1";
             this.Text = "Form1";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnSearchProduct;
     }
 }
 
