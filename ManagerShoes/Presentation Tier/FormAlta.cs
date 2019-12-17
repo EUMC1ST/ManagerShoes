@@ -8,7 +8,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Business;
 
 namespace Presentation_Tier
 {
@@ -29,7 +28,8 @@ namespace Presentation_Tier
             {
                 listBoxProductColors.Items.Add(item.Name);
             }
-            
+
+            var providers = provider.GetAllProviders();
         }
 
         private void label1_Click(object sender, EventArgs e)
