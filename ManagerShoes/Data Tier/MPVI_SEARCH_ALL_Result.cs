@@ -11,7 +11,7 @@ namespace Data_Tier
 {
     using System;
     
-    public partial class eumc1_getProductByIdOrName_Result
+    public partial class MPVI_SEARCH_ALL_Result
     {
         public int Id { get; set; }
         public Nullable<int> IdType { get; set; }
