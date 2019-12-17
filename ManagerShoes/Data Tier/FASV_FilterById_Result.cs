@@ -11,7 +11,7 @@ namespace Data_Tier
 {
     using System;
     
-    public partial class eumc1_getProductByIdOrName_Result
+    public partial class FASV_FilterById_Result
     {
         public int Id { get; set; }
         public Nullable<int> IdType { get; set; }
