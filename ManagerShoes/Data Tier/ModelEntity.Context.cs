@@ -999,11 +999,6 @@ namespace Data_Tier
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction("sp_upgraddiagrams");
         }
     
-        public virtual ObjectResult<eumc1_getAllProviders_Result> eumc1_getAllProviders()
-        {
-            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<eumc1_getAllProviders_Result>("eumc1_getAllProviders");
-        }
-    
         public virtual ObjectResult<ACOB_GetColors_Result> ACOB_GetColors()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<ACOB_GetColors_Result>("ACOB_GetColors");
@@ -1631,6 +1626,11 @@ namespace Data_Tier
         public virtual ObjectResult<eumc1_getProductColors_Result> eumc1_getProductColors()
         {
             return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<eumc1_getProductColors_Result>("eumc1_getProductColors");
+        }
+    
+        public virtual ObjectResult<eumc1_getAllProviders_Result> eumc1_getAllProviders()
+        {
+            return ((IObjectContextAdapter)this).ObjectContext.ExecuteFunction<eumc1_getAllProviders_Result>("eumc1_getAllProviders");
         }
     }
 }

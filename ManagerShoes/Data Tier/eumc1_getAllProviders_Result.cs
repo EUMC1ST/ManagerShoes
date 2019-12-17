@@ -13,7 +13,11 @@ namespace Data_Tier
     
     public partial class eumc1_getAllProviders_Result
     {
-        public string Name { get; set; }
         public int IdProvider { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public Nullable<bool> IsEnabled { get; set; }
+        public Nullable<System.DateTime> DateUpdate { get; set; }
+        public string Url { get; set; }
     }
 }

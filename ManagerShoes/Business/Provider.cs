@@ -4,12 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Data_Tier;
+using Entity_Tier;
 namespace Business
 {
     public class Provider
     {
         private ProviderData providerData = new ProviderData();
-        public List<eumc1_getAllProviders_Result> GetAllProviders()
+        public List<ProviderEntity> GetAllProviders()
         {
             return providerData.GetAllProviders();
         }
